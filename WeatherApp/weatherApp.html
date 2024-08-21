@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city" spellcheck="false">
+            <button><img src="img/search.png" alt="search icon"></button>
+        </div>
+        <div class="main">
+            <img class="weather-icon" src="img/cloudy.png" alt="weather icon">
+            <h1 class="temperature">29°c</h1>
+            <h2 class="city">Vadodara</h2>
+            <div class="weather-info">
+                <div class="weather-status">
+                    <div>
+                        <img id="wind-logo" src="img/wind.png" alt="wind icon">
+                        <p class="wind">2 km/h</p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+                <div class="weather-status">
+                    <div>
+                        <img id="humidity-logo" src="img/humidity.png" alt="humidity icon">
+                        <p class="humidity">58%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
